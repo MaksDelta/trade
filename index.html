@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Гамбургер меню та слайдер</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="logo">
+					<img src="/Group 41.svg" alt="logo" />
+				</div>
+
+				<nav class="nav-links">
+					<a href="#">Цифри</a>
+					<a href="#">Ставки онлайн</a>
+					<a href="#">Про компанію</a>
+					<a href="#">Як почати</a>
+					<a href="#">Тарифи</a>
+					<a href="#">Відгуки</a>
+					<a href="#">FAQ</a>
+				</nav>
+
+				<div class="buttons-big">
+					<button class="registration">Реєстрація</button>
+					<button class="enter">Увійти</button>
+				</div>
+			</header>
+
+			<nav class="fullscreen-menu" id="fullscreenMenu">
+				<div class="close-btn" id="closeBtn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<a href="#">Цифри</a>
+				<a href="#">Ставки онлайн</a>
+				<a href="#">Про компанію</a>
+				<a href="#">Як почати</a>
+				<a href="#">Тарифи</a>
+				<a href="#">Відгуки</a>
+				<a href="#">FAQ</a>
+				<div class="buttons">
+					<button class="registration">Реєстрація</button>
+					<button class="enter">Увійти</button>
+				</div>
+			</nav>
+
+			<div class="hamburger" id="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<div class="banner-row">
+				<img src="/Image (5).svg" alt="banner" class="banner-img" />
+				<div class="banner">
+					<h1>МОМЕНТАЛЬНО КОПІЮЙ УГОДИ ПРОФІ ТРЕЙДЕРІВ</h1>
+					<p>
+						Почни копіювати угоди з успішною командою професійних трейдерів в
+						автоматичному режимі.
+					</p>
+					<div class="banner-input">
+						<input type="text" placeholder="Введіть email" />
+						<button>Почати</button>
+					</div>
+					<p>5 днів безплатного користування</p>
+				</div>
+			</div>
+
+			<img src="/Rectangle 47.svg" alt="Rectangle" class="rectangle" />
+		</div>
+
+		<div class="number-block">
+			<div>
+				<h2>Цифри</h2>
+				<p class="number-date">жовтень 2022</p>
+			</div>
+			<div class="number-info-block">
+				<div class="number-info">
+					<p class="name-info">торового прибутку</p>
+					<p class="numbers">2756%</p>
+				</div>
+				<div class="number-info">
+					<p class="name-info">ф'ючерсних та спотових угод</p>
+					<p class="numbers">67</p>
+				</div>
+				<div class="number-info">
+					<p class="name-info">прибуток підписників</p>
+					<p class="numbers">375000</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="agreements">
+			<h2>минулі угоди</h2>
+			<p class="online"><span class="dot">•</span> Онлайн</p>
+
+			<div class="slider" id="slider">
+				<trade-card
+					pair="NEAR/USDT"
+					time="SPOT · 1 хв. назад"
+					status="прибуток"
+					profit="58.6206%"
+					goal="Ціль 4"
+					date="Дата входу 06.10.2022"
+				>
+				</trade-card>
+
+				<trade-card
+					pair="BTC/USDT"
+					time="FUTURES · 12 хв. назад"
+					status="прибуток"
+					profit="6.02%"
+					goal="Ціль 3"
+					date="Дата входу 18.10.2022"
+				>
+				</trade-card>
+
+				<trade-card
+					pair="ETH/USDT"
+					time="SPOT · 30 хв. назад"
+					status="прибуток"
+					profit="16.3%"
+					goal="Ціль 2"
+					date="Дата входу 15.10.2022"
+				>
+				</trade-card>
+
+				<trade-card
+					pair="SOL/USDT"
+					time="FUTURES · 5 хв. назад"
+					status="прибуток"
+					profit="2.15%"
+					goal="Ціль 1"
+					date="Дата входу 12.11.2022"
+				>
+				</trade-card>
+
+				<trade-card
+					pair="ADA/USDT"
+					time="SPOT · 20 хв. назад"
+					status="прибуток"
+					profit="8.75%"
+					goal="Ціль 2"
+					date="Дата входу 13.11.2022"
+				>
+				</trade-card>
+
+				<trade-card
+					pair="DOGE/USDT"
+					time="FUTURES · 10 хв. назад"
+					status="прибуток"
+					profit="3.46%"
+					goal="Ціль 3"
+					date="Дата входу 14.11.2022"
+				>
+				</trade-card>
+			</div>
+
+			<img src="/Rectangle 47.svg" alt="Rectangle" class="rectangle" />
+		</div>
+
+		<div class="about-company">
+			<div class="about">
+				<h2>про компанію</h2>
+				<p>
+					Ми є досвідченою командою, для якої трейдинг – професія. TradeBlade є
+					авторизованим офіційним брокером біржі Binance.
+				</p>
+				<p>
+					Він надає користувачам безліч переваг, таких як більш висока швидкість
+					синхронізації API та можливість створити обліковий запис Binance через
+					платформу TradeBlade всього в 1 клік.
+				</p>
+			</div>
+
+			<div class="try-it">
+				<div class="form">
+					<h3>
+						Спробуйте зараз та отримайте 5 днів безкоштовного користування
+					</h3>
+					<div class="input-container">
+						<input type="text" placeholder="Ваш e-mail" />
+						<button>Спробувати</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tariffs">
+			<h2>Тарифи</h2>
+			<div class="switch-buttons">
+				<div class="slider"></div>
+				<button class="active" data-type="spot">SPOT</button>
+				<button data-type="futures">FUTURES</button>
+			</div>
+			<div class="cards">
+				<div class="tariff-card"></div>
+				<div class="tariff-card fixed-card" id="vipCard"></div>
+			</div>
+		</div>
+
+		<div class="question">
+			<h2>Часті запитання</h2>
+			<div class="faq">
+				<div class="faq-item">
+					<div class="faq-header">
+						<span class="faq-title">Як працює підписка?</span>
+						<span class="faq-arrow">&#10097;</span>
+					</div>
+					<div class="faq-content">
+						<p>
+							Ми є досвідченою командою, для якої трейдинг – професія.
+							TradeBlade є авторизованим офіційним брокером біржі Binance.
+						</p>
+						<p>
+							Він надає користувачам безліч переваг, таких як більш висока
+							швидкість синхронізації API та можливість створити обліковий запис
+							Binance через платформу TradeBlade всього в 1 клік.
+						</p>
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<div class="faq-header">
+						<span class="faq-title"
+							>Чи можна відмінити в будь-який момент?</span
+						>
+						<span class="faq-arrow">&#10097;</span>
+					</div>
+					<div class="faq-content">
+						<p>
+							Ми є досвідченою командою, для якої трейдинг – професія.
+							TradeBlade є авторизованим офіційним брокером біржі Binance.
+						</p>
+						<p>
+							Він надає користувачам безліч переваг, таких як більш висока
+							швидкість синхронізації API та можливість створити обліковий запис
+							Binance через платформу TradeBlade всього в 1 клік.
+						</p>
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<div class="faq-header">
+						<span class="faq-title">Чи працює сервіс на вихідних?</span>
+						<span class="faq-arrow">&#10097;</span>
+					</div>
+					<div class="faq-content">
+						<p>
+							Ми є досвідченою командою, для якої трейдинг – професія.
+							TradeBlade є авторизованим офіційним брокером біржі Binance.
+						</p>
+						<p>
+							Він надає користувачам безліч переваг, таких як більш висока
+							швидкість синхронізації API та можливість створити обліковий запис
+							Binance через платформу TradeBlade всього в 1 клік.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="try-it">
+			<div class="form2">
+				<h3>Почніть прямо зараз з безкоштовним 5-денним пробним періодом!</h3>
+				<div class="input-container">
+					<input type="text" placeholder="Ваш e-mail" />
+					<button>Зареєструватись</button>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="bottom-menu">
+				<div class="first-menu">
+					<p>швидка навігація</p>
+				</div>
+				<div class="second-menu">
+					<p><a>цифри</a></p>
+					<p><a>угоди онлайн</a></p>
+					<p><a>про компанію</a></p>
+					<p><a>tradeblad це</a></p>
+					<p><a>як почати</a></p>
+					<p><a>тарифи</a></p>
+					<p><a>FAQ</a></p>
+				</div>
+			</div>
+
+			<div class="bottom-logo">
+				<img src="/Group 41 (1).svg" alt="logo" />
+				<p>© 2022 TradeBlade. All rights reserved</p>
+			</div>
+		</footer>
+		<script src="script.js" defer></script>
+	</body>
+</html>
