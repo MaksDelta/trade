@@ -1560,7 +1560,7 @@ footer .bottom-menu {
 	}
 
 	footer .bottom-menu {
-		width: 947px;
+		width: 100%;
 		padding: 44px 0 40px 80px;
 		display: flex;
 		flex-direction: column;

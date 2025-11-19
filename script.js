@@ -23,7 +23,7 @@ class TradeCard extends HTMLElement {
         <p class="status">${this.getAttribute("status")}</p>
         <div class="profit-block">
           <p class="profit">${this.getAttribute("profit")}</p>
-          <img src="/Vector 15.svg" alt="profit" class="profit-icon" />
+          <img src="Vector 15.svg" alt="profit" class="profit-icon" />
         </div>
         <div class="profit-footer">
           <p class="goal">${this.getAttribute("goal")}</p>
